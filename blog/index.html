@@ -1,6 +1,9 @@
 <!doctype html>
+
 <meta charset="utf-8">
 <link rel="stylesheet" href="../static/style.css">
+<script src="../static/jquery-1.12.3.min.js"></script>
+<script src="../static/text-search.js"></script>
 <title> — test_blog</title>
 <body>
   <header>
@@ -20,24 +23,52 @@
   </header>
   <div class="page">
     
+  <form id="live-search">
+    <fieldset>
+      <input type="text" class="text-input" id="filter" value="" />
+    </fieldset>
+  </form>
+  <ul>
   
+    <li class="blog-post">
     
   <div class="blog-post">
   
-    <h2><a href="../blog/first-post/">Hello Website</a></h2>
+    <h2><a href="../blog/first-post/">This is a FAQ</a></h2>
   
   <p class="meta">
     written by
     
-      vagrant,,,
+      
     
     on 2016-04-18
   </p>
-  <p>This is an example blog post.  Not much here but that's not the point :)</p>
 
+  <a href="../blog/first-post/">Read more...</a>
   </div>
 
+    </li>
   
+    <li class="blog-post">
+    
+  <div class="blog-post">
+  
+    <h2><a href="../blog/another/">another</a></h2>
+  
+  <p class="meta">
+    written by
+    
+      <a href="https://twitter.com/gftfg">hbdksbk dsbakbkj</a>
+    
+    on 2016-04-13
+  </p>
+dhkvkdkhw dednjewknfk;ewkd&#39;wl qw
+  <a href="../blog/another/">Read more...</a>
+  </div>
+
+    </li>
+  
+    <li class="blog-post">
     
   <div class="blog-post">
   
@@ -50,12 +81,13 @@
     
     on 
   </p>
-  <p>lots of new content</p>
-
+First paragraph. First paragraph. First paragraph. First paragraph. First paragraph. First paragraph. First paragraph. First paragraph. First paragraph. First paragraph. First paragraph.
+  <a href="../blog/second-blog-post/">Read more...</a>
   </div>
 
+    </li>
   
-
+  </ul>
   
   <div class="pagination">
     

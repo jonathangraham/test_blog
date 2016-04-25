@@ -40,3 +40,7 @@ header nav ul li {
 div.page {
     background: #f1fbfe;
 }
+
+.blog-post {
+    list-style: none;
+}
